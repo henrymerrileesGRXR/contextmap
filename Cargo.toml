@@ -1,0 +1,18 @@
+[package]
+name = "contextmap"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chrono = "0.4.23"
+
+
+[lib]
+name = "contextmap"
+path = "src/lib.rs"
+
+[[bin]]
+name = "contextmapbin"
+path = "src/main.rs"
